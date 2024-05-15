@@ -22,7 +22,7 @@ ws.append(["Código EAN"])
 
 ean = int(input("Quantos códigos deseja gerar: "))
 
-# Gerando 100 códigos e adicionando à planilha
+# Gerando códigos e adicionando à planilha
 for _ in range(ean):
     codigo = gerar_numero_ean()
     ws.append([codigo])
